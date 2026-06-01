@@ -7,7 +7,7 @@ h1, p {
 }
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: auto;
   padding: 0;
   overflow: hidden;
   background-color: #ce0000;
