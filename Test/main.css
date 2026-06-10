@@ -8,7 +8,7 @@ ul {
   margin: auto;
   padding: 0;
   overflow: hidden;
-  background-color: #ce0000;
+  background-color: #a80000;
 }
 ul li {
   float: right;
@@ -21,7 +21,7 @@ ul li a {
   text-decoration: none;
 }
 ul li a:hover {
-  background-color: #be0000;
+  background-color: #b00303;
 }
 div {
   background-image: url('train.png');
