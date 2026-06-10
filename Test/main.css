@@ -32,5 +32,8 @@ h1 {
   color: white;
   font-family: 'sans-serif';
   font-size: 50px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(28, 51, 154);
+}
+span {
+  font-size: 20px;
 }
