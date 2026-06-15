@@ -4,6 +4,7 @@ body {
   padding: 0;
 }
 ul {
+  font-size: 20px;
   list-style-type: none;
   margin: auto;
   padding: 0;
@@ -20,26 +21,29 @@ ul li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-ul li a:hover {
+ul li a:hover:not(.active) {
   background-color: #b00303;
+}
+ul li a.active {
+  background-color: #04AA6D;
 }
 div {
   background-image: url('train.png');
-  padding: 50px 0;
-  margin-bottom: 0;
+  padding: 40px 0;            
+  background-size: cover;
 }
 h1 {
   color: white;
   text-align: center;
   font-family: 'sans-serif';
-  font-size: 50px;
+  font-size: 70px;
   background-color: rgba(174, 90, 0, 0.83);
 }
 span {
-  font-size: 20px;
+  font-size: 28px;
 }
 p {
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
-  padding: 200px 16px;
+  padding: 160px 250px;
 }
