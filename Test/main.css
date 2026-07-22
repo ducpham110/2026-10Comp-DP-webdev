@@ -40,10 +40,19 @@ h1 {
   background-color: rgba(174, 90, 0, 0.83);
 }
 span {
+  font-size: 35px;
+}
+layer {
   font-size: 28px;
+  font-family: 'sans-serif';
+  padding: 160px 250px;
+}
+trai {
+  text-align: left;
+}
+middle {
+  text-align: center;
 }
 p {
   font-size: 30px;
-  text-align: center;
-  padding: 160px 250px;
 }
