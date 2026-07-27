@@ -1,10 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=sans-serif);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 body {
   margin: 0;
   padding: 0;
 }
 ul {
   font-size: 20px;
+  font-family: 'Playfair Display';
   list-style-type: none;
   margin: auto;
   padding: 0;
@@ -32,10 +36,17 @@ div {
   padding: 40px 0;            
   background-size: cover;
 }
+img {
+  border-radius: 100px;
+  width: 300px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 20px 0;
+}
 h1 {
   color: white;
   text-align: center;
-  font-family: 'sans-serif';
+  font-family: 'Playfair Display';
   font-size: 70px;
   background-color: rgba(174, 90, 0, 0.83);
 }
@@ -43,10 +54,10 @@ span {
   font-size: 35px;
 }
 layer {
-  font-size: 28px;
-  font-family: 'sans-serif';
-  padding: 160px 250px;
+  font-size: 24px;
+  font-family: 'Pacifico';
 }
+
 trai {
   text-align: left;
 }
@@ -55,4 +66,6 @@ middle {
 }
 p {
   font-size: 30px;
+  font-family: 'Quicksand';
+  padding: 160px 250px;
 }
