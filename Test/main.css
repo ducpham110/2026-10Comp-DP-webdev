@@ -31,6 +31,38 @@ ul li a:hover:not(.active) {
 ul li a.active {
   background-color: #04AA6D;
 }
+main {
+  display: flex;
+  align-items: center;         /* Aligns text and image vertically in the middle */
+  justify-content: space-between;
+  gap: 40px;                   /* Gap between your paragraph and picture */
+  max-width: 1900px; 
+  margin: 50px auto;           /* Centers the white box on the screen */
+    
+  background-color: #ffffff;   /* Your clean white background */
+  padding: 40px; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08); /* Adds a subtle shadow around the white box */
+}
+
+/* Styles the paragraph text on the left */
+main p { 
+  flex: 1;                     /* Takes up the remaining space on the left side */
+  font-size: 25px; 
+  font-family: 'Quicksand'; 
+  color: #333333;              /* Black grey text for easy reading on white background */
+  line-height: 1.6;            /* Gives the text breathing room */
+  margin: 0;
+  padding: 0;                  /* Removed old giant padding values completely */
+} 
+
+/* Styles your circular profile image on the right */
+main img { 
+  border-radius: 100px;          /* Turns your image into a perfect circle */
+  width: 300px; 
+  height: 400px;               /* Width and height match to prevent stretching */
+  object-fit: cover;           /* Ensures your image crops nicely into the circle shape */
+}
 div {
   background-image: url('train.png');
   padding: 40px 0;            
@@ -57,7 +89,6 @@ layer {
   font-size: 24px;
   font-family: 'Pacifico';
 }
-
 trai {
   text-align: left;
 }
