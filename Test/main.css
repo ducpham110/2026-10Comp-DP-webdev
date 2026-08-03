@@ -31,14 +31,25 @@ ul li a:hover:not(.active) {
 ul li a.active {
   background-color: #04AA6D;
 }
-main {
+main_1 {
   display: flex;
   align-items: center;         /* Aligns text and image vertically in the middle */
   justify-content: space-between;
   gap: 40px;               
   max-width: 1900px; 
   margin: 50px auto;           /* Centers the white box on the screen */
-    
+  background-color: #ffffff; 
+  padding: 40px; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+main_2 {
+  display: grid;
+  align-items: center;         /* Aligns text and image vertically in the middle */
+  justify-content: space-between;
+  gap: 40px;               
+  max-width: 1900px; 
+  margin: 50px auto;           /* Centers the white box on the screen */
   background-color: #ffffff; 
   padding: 40px; 
   border-radius: 15px; 
