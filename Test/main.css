@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=sans-serif);
-@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Sofia);
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 body {
@@ -26,18 +26,30 @@ ul li a {
   text-decoration: none;
 }
 ul li a:hover:not(.active) {
-  background-color: #b00303;
+  background-color: #b90000;
 }
 ul li a.active {
   background-color: #04AA6D;
 }
+button {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #059862;
+}
 main_1 {
   display: flex;
-  align-items: center;         /* Aligns text and image vertically in the middle */
+  align-items: center;        
   justify-content: space-between;
-  gap: 40px;               
-  max-width: 1900px; 
-  margin: 50px auto;           /* Centers the white box on the screen */
+  gap: 0;               
+  max-width: 2900px; 
+  margin: 50px 80px;           /* Centers the white box on the screen */
   background-color: #ffffff; 
   padding: 40px; 
   border-radius: 15px; 
@@ -45,29 +57,44 @@ main_1 {
 }
 main_2 {
   display: grid;
-  align-items: center;         /* Aligns text and image vertically in the middle */
+  align-items: center;        
   justify-content: space-between;
-  gap: 40px;               
-  max-width: 1900px; 
-  margin: 50px auto;           /* Centers the white box on the screen */
+  gap: 0;               
+  max-width: 2900px; 
+  margin: 40px 80px;           /* Centers the white box on the screen */
   background-color: #ffffff; 
-  padding: 40px; 
+  padding: 50px 100px; 
   border-radius: 15px; 
   box-shadow: 0 4px 20px rgba(0,0,0,0.08);
 }
-main p { 
+main_1 p { 
   flex: 1;                     /* Takes up the remaining space on the left side */
   font-size: 25px; 
   font-family: 'Quicksand'; 
   color: #333333;
   line-height: 1.6;            /* Gives the text breathing room */
   margin: 0;
-  padding: 0;                  /* Removed old giant padding values completely */
+  padding: 50px 70px;               /* Removed old giant padding values completely */
 } 
-main img { 
+main_1 img { 
   border-radius: 100px;          /* Turns your image into a perfect circle */
   width: 300px; 
-  height: 400px;               /* Width and height match to prevent stretching */
+  height: 400px;             
+  object-fit: cover;           /* Ensures your image crops nicely into the circle shape */
+}
+main_2 p { 
+  flex: 1;                     /* Takes up the remaining space on the left side */
+  font-size: 25px; 
+  font-family: 'Quicksand'; 
+  color: #333333;
+  line-height: 1.6;            /* Gives the text breathing room */
+  margin: 0;
+  padding: 20px 70px;               /* Removed old giant padding values completely */
+} 
+main_2 img { 
+  border-radius: 100px;          /* Turns your image into a perfect circle */
+  width: 300px; 
+  height: 300px;            
   object-fit: cover;           /* Ensures your image crops nicely into the circle shape */
 }
 div {
@@ -75,12 +102,18 @@ div {
   padding: 40px 0;            
   background-size: cover;
 }
+c {
+  display: flex;
+  text-align: center;        
+  justify-content: space-between;
+  gap: 40px;  
+}
 img {
   border-radius: 100px;
   width: 300px;
   display: inline-block;
   vertical-align: middle;
-  margin: 20px 0;
+  margin: 0 90px;
 }
 h1 {
   color: white;
@@ -94,16 +127,22 @@ span {
 }
 layer {
   font-size: 24px;
-  font-family: 'Pacifico';
+  font-family: 'Sofia';
 }
 trai {
   text-align: left;
 }
 middle {
+  justify-content: center;
   text-align: center;
+}
+h3 {
+  font-size: 35px;
+  font-family: 'Playfair Display';
+  padding: 60px 140px;
 }
 p {
   font-size: 30px;
   font-family: 'Quicksand';
-  padding: 160px 250px;
+  padding: 160px 140px;
 }
