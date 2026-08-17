@@ -63,7 +63,7 @@ main_2 {
   max-width: 2900px; 
   margin: 40px 80px;           /* Centers the white box on the screen */
   background-color: #ffffff; 
-  padding: 50px 100px; 
+  padding: 50px 120px; 
   border-radius: 15px; 
   box-shadow: 0 4px 20px rgba(0,0,0,0.08);
 }
@@ -82,7 +82,8 @@ main_1 img {
   height: 400px;             
   object-fit: cover;           /* Ensures your image crops nicely into the circle shape */
 }
-main_2 p { 
+main_2 p {
+  display: flex; 
   flex: 1;                     /* Takes up the remaining space on the left side */
   font-size: 25px; 
   font-family: 'Quicksand'; 
@@ -143,6 +144,7 @@ h3 {
 }
 p {
   font-size: 30px;
+  line-height: 1.6;
   font-family: 'Quicksand';
   padding: 160px 140px;
 }
